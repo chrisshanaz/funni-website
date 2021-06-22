@@ -21,7 +21,14 @@ h1 {
 	font-size: 5.5em;
 	letter-spacing: .35em;
 }
-
+funni {
+	font-family: 'Undertale Sans';
+	color: red;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+}
 .intro {
 	padding: 12em 6em;
 }
