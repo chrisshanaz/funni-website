@@ -199,6 +199,9 @@ h3 {
 .artwork {
 	display: flex;
 }
+.trolla{
+	padding-left: 69px;
+}
 .artwork .artwork-piece {
 	padding: 15% 0 8% 13.5%;
 	background-image: -webkit-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
