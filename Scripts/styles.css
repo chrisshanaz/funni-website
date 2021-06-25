@@ -106,7 +106,7 @@ funni {
 	width: 3.1em;
 }
 .site-logo img {
-	width: 3.1em;
+	width: 9.1em;
 }
 .logo {
 	opacity: 1;
@@ -139,7 +139,7 @@ funni {
 	text-decoration: none;
 	letter-spacing: .15em;
 	text-transform: uppercase;
-	color: #fff;
+	color: #000000;
 	-webkit-transition: color .3s;
 	transition: color .3s;
 }
@@ -248,7 +248,7 @@ h3 {
 }
 footer {
 	margin-top: -3.5em;
-	padding-top: 10em;
+	padding-top: 20em;
 	background-image: -webkit-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
 	background-image: -o-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
 	background-image: linear-gradient(to top right, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
@@ -279,7 +279,7 @@ footer {
 }
 .footer-social li a:hover {
 	border-color: #fff;
-	background: #fff;
+	background: #000000;
 }
 .footer-social li a img {
 	width: auto;
