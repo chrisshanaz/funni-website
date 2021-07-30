@@ -123,7 +123,6 @@ funni {
 	width: 80%;
 	padding: .75em 1em 0 0;
 	opacity: .95;
-	background: none;
 }
 .site-nav ul {
 	list-style-type: none;
@@ -141,9 +140,7 @@ funni {
 	text-decoration: none;
 	letter-spacing: .15em;
 	text-transform: uppercase;
-	color: #000000;
-	-webkit-transition: color .3s;
-	transition: color .3s;
+	color: #FFFFFF;
 }
 .site-nav ul li a:hover {
 	outline: none;
@@ -152,18 +149,18 @@ funni {
 .hero {
 	position: relative;
 	height: 54vw;
-	background-color: #32A8FC;
+	background-color: #000000;
 }
 .hero-content {
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
 	color: #fff;
-	position: absolute;
-	z-index: 20000;
 	padding-top: 4em;
 	top: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	position: relative;
+	z-index:9999999;
 }
 h2 {
 	font-weight: 100;
@@ -205,9 +202,9 @@ h3 {
 }
 .artwork .artwork-piece {
 	padding: 15% 0 8% 13.5%;
-	background-image: -webkit-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
-	background-image: -o-linear-gradient(top left, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
-	background-image: linear-gradient(to bottom right, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+	background-image: -webkit-linear-gradient(top left, rgb(0,0,0) 0%, rgb(0,0,0) 100%);
+	background-image: -o-linear-gradient(top left, rgb(0,0,0) 0%, rgb(0,0,0) 100%);
+	background-image: linear-gradient(to bottom right, rgb(0,0,0) 0%, rgb(83,0,234) 100%);
 	width: 50%;
 }
 .artwork-piece figure {
@@ -256,7 +253,7 @@ footer {
 	padding-top: 20em;
 	background-image: -webkit-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
 	background-image: -o-linear-gradient(bottom left, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
-	background-image: linear-gradient(to top right, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
+	background-image: linear-gradient(to top right, rgb(0,91,0) 0%, rgb(255,213,86) 100%);
 }
 .footer-content {
 	width: 64%;
