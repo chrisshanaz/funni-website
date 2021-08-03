@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+.hero {
+	position: relative;
+	height: 54vw;
+	text-align: center;
+}
+body {
+	background-color: #DBF9FC;
+}

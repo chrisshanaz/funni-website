@@ -145,7 +145,7 @@ funni {
 .hero {
 	position: relative;
 	height: 54vw;
-	background-color: #AC0101;
+	background: linear-gradient(to top, #ff5050 0%, #ffffff 100%);
 }
 .hero-content {
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
@@ -183,8 +183,28 @@ h3 {
 }
 .intro {
   	position: relative;
-	background: rgb(256,256,0) 0%;
+	background: linear-gradient(to top right, #ffff99 0%, #ccffcc 100%);
+}
+.aboutus {
+	padding-top: 2em;
+	position: relative;
+	height: 35vw;
+	background: linear-gradient(to top, #66ffcc 0%, #3333cc 100%);
 	
+}
+.aboutus video{
+	align-content: center;
+}
+.aboutus h1 {
+	color: black;
+	font-size: 45px;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+.aboutus p {
+	text-align: center;
+	position: relative;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'
 }
 table, th, td  {
   border: 2px solid black;

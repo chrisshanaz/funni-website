@@ -31,7 +31,8 @@ funni {
 	font-size: 1em;
 }
 .intro {
-	padding: 12em 6em;
+	padding-top: 2em;
+	height: 20vw;
 }
 
 .intro p {
@@ -43,6 +44,12 @@ funni {
 	font-size: 2.5em;
 	line-height: 1.8;
 	letter-spacing: .325em;
+}
+.intro a {
+	font-size: 30px;
+	position: relative;
+	height: 40px;
+	bottom: 100px;
 }
 
 .footer-credit {
@@ -149,7 +156,7 @@ funni {
 .hero {
 	position: relative;
 	height: 54vw;
-	background-color: #000000;
+	background: linear-gradient(to top, #990033 0%, #000000 100%);
 }
 .hero-content {
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
